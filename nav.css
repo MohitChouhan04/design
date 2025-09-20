@@ -33,7 +33,6 @@
     font-size: 2rem;
     font-weight: bold;
     color: black;
-    /* gap: 0.1rem; */
 }
 .navigation{
     display: none;
@@ -105,8 +104,6 @@
     margin: 0 auto;
    
     text-align: left;
-    /* background-color: #4158D0;
-    background-image: linear-gradient(43deg, #b8c4fc 0%, #f5c5f2 46%, #f4d498 100%); */
 
     
     
@@ -116,7 +113,6 @@
     display: flex;
     flex-direction: column;
     padding: 6rem;
-    /* text-align: center; */
     animation: slidefromleft 1s ease forwards;
     opacity:0;
     max-width: 50%;
@@ -174,7 +170,7 @@
     display: flex;
     gap: 2rem;
     padding: 1rem 0;
-    /* margin: 0 auto; */
+   
 }
 
 
@@ -182,6 +178,7 @@
 
 .content-right{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
